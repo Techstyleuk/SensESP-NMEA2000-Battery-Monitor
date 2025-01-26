@@ -25,11 +25,14 @@ I needed 2 Current Sensor Boards, so look carefully on the board you will see pa
 
 See the video on (TBA)
 
-The files should replace the files of the same name in the template. locations are as follows:
+Instructions for use:
+1. Setup VSCode per the SensESP instructions linked below
+2. Download the Folder "SensESP-NS-Bat-Mon"
+4. follow the instructions "Building and Installing the Project Template" from the SensESP documentation, but using the "SensESP-NS-Bat-Mon" folder
 
-src/main.cpp
-
-platformio.ini
+The only files that are different from the SensESP template are:
+1. src/main.cpp
+2. platformio.ini
 
 Comprehensive documentation for SensESP, including how to get started with your own project, is available at the [SensESP documentation site](https://signalk.org/SensESP/).
 
